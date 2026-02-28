@@ -1,0 +1,47 @@
+@import "tailwindcss";
+
+@layer base {
+	body {
+		@apply bg-white text-slate-700 antialiased;
+		line-height: 1.7;
+		font-family: Inter, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+	}
+
+	h1,
+	h2,
+	h3,
+	h4 {
+		font-family: "Merriweather", Georgia, "Times New Roman", serif;
+		@apply text-slate-900;
+		line-height: 1.2;
+		letter-spacing: -0.01em;
+	}
+}
+
+@layer components {
+	.premium-card {
+		@apply transition-all duration-500 hover:-translate-y-1 hover:shadow-xl;
+	}
+
+	.premium-media-wrap {
+		@apply relative overflow-hidden rounded-xl;
+	}
+
+	.premium-media {
+		@apply transition-transform duration-700 ease-out hover:scale-105;
+	}
+
+	.premium-media-wrap::after {
+		content: "";
+		@apply pointer-events-none absolute inset-0 bg-gradient-to-t from-slate-900/20 via-transparent to-transparent opacity-70;
+	}
+
+	.premium-cta {
+		@apply relative overflow-hidden;
+	}
+
+	.premium-cta::before {
+		content: "";
+		@apply absolute -top-20 -left-12 h-44 w-44 rounded-full bg-white/20 blur-2xl;
+	}
+}
