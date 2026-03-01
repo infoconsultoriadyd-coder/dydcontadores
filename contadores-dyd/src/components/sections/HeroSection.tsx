@@ -34,7 +34,7 @@ export default function HeroSection() {
         <div className="grid grid-cols-2 gap-4">
           <div className="col-span-2 bg-white/5 border border-white/20 rounded-xl p-3 backdrop-blur-sm premium-card">
             <img
-              src="/images/hero-equipo.png"
+              src="/images/hero-equipo.jpg"
               alt="Equipo contable"
               className="aspect-[16/8] w-full rounded-lg object-cover premium-media"
               loading="lazy"
