@@ -42,7 +42,7 @@ export default function HeroSection() {
           </div>
           <div className="bg-white/5 border border-white/20 rounded-xl p-3 backdrop-blur-sm premium-card">
             <img
-              src="/images/hero-oficina.png"
+              src="/images/hero-oficina.jpg"
               alt="Oficina y atención a clientes"
               className="aspect-square w-full rounded-lg object-cover premium-media"
               loading="lazy"
@@ -50,7 +50,7 @@ export default function HeroSection() {
           </div>
           <div className="bg-white/5 border border-white/20 rounded-xl p-3 backdrop-blur-sm premium-card">
             <img
-              src="/images/hero-resultados.png"
+              src="/images/hero-resultados.jpg"
               alt="Resultados financieros"
               className="aspect-square w-full rounded-lg object-cover premium-media"
               loading="lazy"

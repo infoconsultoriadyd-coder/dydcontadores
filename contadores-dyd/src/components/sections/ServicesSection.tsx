@@ -61,7 +61,7 @@ export default function ServicesSection() {
 
           <div className="bg-white/70 rounded-xl p-4 border border-slate-200 shadow-sm premium-card premium-media-wrap">
             <img
-              src="/images/propiedad-horizontal.png"
+              src="/images/propiedad-horizontal.jpg"
               alt="Propiedad horizontal"
               className="aspect-video w-full rounded-lg object-cover premium-media"
               loading="lazy"
