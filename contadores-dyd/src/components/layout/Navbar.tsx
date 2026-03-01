@@ -61,7 +61,7 @@ export default function Navbar() {
             }}
             className={`${logoClass} inline-flex items-center`}
           >
-            <img src="/images/logo.png" alt="Logo D&D" className="h-18 w-60 object-cover rounded-xl border border-white/30 mt-4" />
+            <img src="/images/logo.png" alt="Logo D&D" className="h-18 w-40 object-cover rounded-xl border border-white/30 mt-4" />
           </a>
 
           {/* Desktop Menu */}
