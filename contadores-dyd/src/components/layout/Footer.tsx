@@ -38,7 +38,7 @@ export default function Footer() {
           {/* Contact Info */}
           <div>
             <h4 className="text-xl font-semibold mb-4 text-white">Contacto</h4>
-            <p className="text-slate-300">Email: contacto.d&d@gmail.com</p>
+            <p className="text-slate-300">Email: infoconsultoriadyd@gmail.com</p>
             <p className="text-slate-300 mt-2">Teléfono: 319 3767702 - 313 3494543 - 3005468227</p>
             <p className="text-slate-300 mt-2">Dirección: Cra 12 # 3-50 - Interior 26, Oficina, Chía</p>
           </div>
