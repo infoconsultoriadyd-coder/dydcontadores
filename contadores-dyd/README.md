@@ -1,6 +1,7 @@
 # Landing D&D Contadores
 
 Este proyecto es una página web de presentación para servicios contables de D&D.
+@author : Sinnexys
 
 ## ¿Qué contiene?
 
