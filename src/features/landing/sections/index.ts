@@ -1,0 +1,11 @@
+export { default as HeroSection } from "./HeroSection";
+export { default as ServicesSection } from "./ServicesSection";
+export { default as AnalysisSection } from "./AnalysisSection";
+export { default as MidCtaSection } from "./MidCtaSection";
+export { default as ContactSection } from "./ContactSection";
+export { default as AuditSection } from "./AuditSection";
+export { default as AudiSection } from "./AudiSection";
+export { default as BenefitsSection } from "./BenefitsSection";
+export { default as FormalizationSection } from "./FormalizationSection";
+export { default as SystemsSection } from "./SystemsSection";
+export { default as ValuesSection } from "./ValuesSection";

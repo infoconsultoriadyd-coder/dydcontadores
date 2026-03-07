@@ -1,5 +1,5 @@
 import { Calculator, TrendingUp, PieChart, FileSpreadsheet, Landmark } from "lucide-react";
-import ServiceCard from "../ui/ServiceCard";
+import ServiceCard from "@/shared/ui/cards/ServiceCard";
 
 export default function ServicesSection() { 
   return (

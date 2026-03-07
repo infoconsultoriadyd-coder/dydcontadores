@@ -1,4 +1,4 @@
-import ProcessCard from "../ui/ProcessCard";
+import ProcessCard from "@/shared/ui/cards/ProcessCard";
 
 export default function FormalizationSection() {
   return (

@@ -1,5 +1,5 @@
 import { BarChart3, FileText } from "lucide-react";
-import ServiceCard from "../ui/ServiceCard";
+import ServiceCard from "@/shared/ui/cards/ServiceCard";
 
 export default function AnalysisSection() {
   return (
